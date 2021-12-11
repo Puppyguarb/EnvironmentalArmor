@@ -10,6 +10,7 @@ import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.Property;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.tick.OrderedTick;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Random;
@@ -32,7 +33,8 @@ public class AirFilterBlock extends Block {
             boolean bl = (Boolean)state.get(LIT);
             if (bl != world.isReceivingRedstonePower(pos)) {
                 if (bl) {
-                    world.getBlockTickScheduler().schedule(pos, this, 4);
+                    //world.getBlockTickScheduler().schedule(pos, this, 4);
+                    world.getBlockTickScheduler().scheduleTick(new OrderedTick<>(this,pos,4,4));
                 } else {
                     world.setBlockState(pos, (BlockState)state.cycle(LIT), 2);
                 }
