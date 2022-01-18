@@ -1,0 +1,6 @@
+v1	named	intermediary
+METHOD	io/github/magicquartz/environmentalarmor/mixin/FirstApril	(Lnet/minecraft/entity/damage/DamageSource;F)Z	damage	method_5643
+METHOD	io/github/magicquartz/environmentalarmor/mixin/FirstApril	(Lnet/minecraft/text/Text;Z)V	sendMessage	method_7353
+METHOD	io/github/magicquartz/environmentalarmor/mixin/LivingEntityMixin	(Lnet/minecraft/entity/effect/StatusEffectInstance;)Z	addStatusEffect	method_6092
+METHOD	io/github/magicquartz/environmentalarmor/mixin/LivingEntityMixin	(Lnet/minecraft/entity/effect/StatusEffect;)Z	hasStatusEffect	method_6059
+METHOD	io/github/magicquartz/environmentalarmor/mixin/PlayerEntityMixin	()V	tick	method_5773

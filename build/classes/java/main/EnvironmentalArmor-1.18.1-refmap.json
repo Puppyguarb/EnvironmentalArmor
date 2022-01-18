@@ -1,0 +1,38 @@
+{
+  "mappings": {
+    "io/github/magicquartz/environmentalarmor/mixin/PlayerEntityMixin": {
+      "tick": "Lnet/minecraft/class_1657;method_5773()V"
+    },
+    "io/github/magicquartz/environmentalarmor/mixin/BrewingRecipeRegistryAccessor": {
+      "registerPotionRecipe": "method_8074(Lnet/minecraft/class_1842;Lnet/minecraft/class_1792;Lnet/minecraft/class_1842;)V"
+    },
+    "io/github/magicquartz/environmentalarmor/mixin/BrewingRecipeRegistryMixin": {
+      "registerDefaults": "Lnet/minecraft/class_1845;method_8076()V"
+    },
+    "io/github/magicquartz/environmentalarmor/mixin/LivingEntityMixin": {
+      "tick": "Lnet/minecraft/class_1309;method_5773()V"
+    },
+    "io/github/magicquartz/environmentalarmor/mixin/FirstApril": {
+      "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "io/github/magicquartz/environmentalarmor/mixin/PlayerEntityMixin": {
+        "tick": "Lnet/minecraft/class_1657;method_5773()V"
+      },
+      "io/github/magicquartz/environmentalarmor/mixin/BrewingRecipeRegistryAccessor": {
+        "registerPotionRecipe": "method_8074(Lnet/minecraft/class_1842;Lnet/minecraft/class_1792;Lnet/minecraft/class_1842;)V"
+      },
+      "io/github/magicquartz/environmentalarmor/mixin/BrewingRecipeRegistryMixin": {
+        "registerDefaults": "Lnet/minecraft/class_1845;method_8076()V"
+      },
+      "io/github/magicquartz/environmentalarmor/mixin/LivingEntityMixin": {
+        "tick": "Lnet/minecraft/class_1309;method_5773()V"
+      },
+      "io/github/magicquartz/environmentalarmor/mixin/FirstApril": {
+        "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V"
+      }
+    }
+  }
+}
